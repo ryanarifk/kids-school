@@ -171,17 +171,125 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
-.silde-btn {
-    margin: 0 auto;
+.slide-btn{
+    text-align: center;
+    margin: 50px 0;
+}
+.slide-btn a i{
+    background-color: #FEA301;
+    padding: 11px 15px;
+    color: #FFFFFF;
+    border-radius: 21px;
+    font-size: 22px;
 }
 /* Storis Styels  */
 .storis{
     width: 100%;
-    height: auto;
+    height: 100hv;
     background-image: linear-gradient(170deg, #FFFFFF 6%,#fde8c1d8 50%), url("/assets/bg.png");
 }
-
-
+.storis-title h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+.storis-content{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 30px 70px;
+}
+.left-content{
+    width: 40%;
+    background-color: #FFFFFF;
+    height: 540px;
+    border-radius: 20px;
+    margin-right: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative
+}
+.left-content img{
+    border-radius:20px 20px 0 0;
+    width: 100%;
+}
+.left-content h4{
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px 40px 0 40px;
+}
+.left-content p{
+    color: #666666;
+    font-size: 15px;
+    padding: 10px 40px 0 40px;
+}
+.left-content-date{
+    background-color: #3CD8E8;
+    padding: 10px 20px;
+    border-radius: 20px;
+    top: 230px;
+    left: 25px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.btn-center{
+    margin:50px 0;
+    background-color: #111111;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 7px #a9a7a7;
+}
+.btn{
+    text-align: center;
+}
+.right-content{
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.right-container{
+    width: 290px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.span-one,.span-three,.span-four{
+    position: absolute;
+    top: 165px;
+    left: 25px;
+    background: #95B226; /* পছন্দের ব্যাকগ্রাউন্ড রঙ */
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px; /* গোলাকার ডিজাইনের জন্য */
+    font-weight: bold;
+}
+.span-two{
+    position: absolute;
+    top: 165px;
+    left: 25px;
+    background: #6C63FF; /* পছন্দের ব্যাকগ্রাউন্ড রঙ */
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px; /* গোলাকার ডিজাইনের জন্য */
+    font-weight: bold;
+}
+.right-container p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 25px;
+}
 /* Footer styles  */
 footer{
     background-color: #01ACFD;
@@ -241,6 +349,10 @@ footer{
    margin-bottom: 30px;
    padding-top: 35px;
 }
-.footer-logo img{
+.footer-icon img{
   margin-right: 5px;
+  width: 80px;
+  background-color: #FFFFFF;
+  padding: 5px;
+  border-radius: 10px;
 }
